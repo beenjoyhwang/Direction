@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DirectionSet">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="걷다보니 갈림길이 나왔습니다." />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TV를 보느라 정신이 팔려 어머니의 길 안내가 생각이 나지 않습니다." />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아이의 운을 믿어봅시다." />
+
+    <Button
+        android:id="@+id/right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="오른쪽으로 간다" />
+
+    <Button
+        android:id="@+id/left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="왼쪽으로 간다" />
+</LinearLayout>

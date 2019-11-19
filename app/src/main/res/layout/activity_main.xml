@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="어머니가 심부름을 시켰습니다. 무사히 슈퍼에 갔다가 집으로 돌아오세요."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="현관문을 나선다"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="561dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
