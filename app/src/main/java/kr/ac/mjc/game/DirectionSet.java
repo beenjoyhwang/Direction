@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class DirectionSet extends AppCompatActivity {
@@ -14,6 +15,8 @@ public class DirectionSet extends AppCompatActivity {
     TextView text2;
     TextView text1;
     TextView text3;
+    ImageView start;
+    ImageView set;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,11 +46,17 @@ public class DirectionSet extends AppCompatActivity {
         text1 = findViewById(R.id.text1);
         text2 = findViewById(R.id.text2);
         text3 = findViewById(R.id.text3);
+        set = findViewById(R.id.set);
+        start = findViewById(R.id.start);
+
 
         if (requestCode == REQUEST_CODE_MENU) {
             text1.setVisibility(text1.INVISIBLE);
             text2.setText("개를 피해왔습니다.");
             text3.setText("오른쪽으로 가야합니다");
+
+            set.setVisibility(set.INVISIBLE);
+            start.setVisibility(start.VISIBLE);
         }
 
     }
