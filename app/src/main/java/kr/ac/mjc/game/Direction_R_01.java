@@ -12,7 +12,8 @@ public class Direction_R_01 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_direction__r_01);
+        setContentView(R.layout.activity_direction__r__straight);
+
 
         Button left = (Button)findViewById(R.id.left);
         Button right = (Button)findViewById(R.id.right);

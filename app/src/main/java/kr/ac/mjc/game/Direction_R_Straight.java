@@ -20,7 +20,7 @@ public class Direction_R_Straight extends AppCompatActivity {
         left.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Direction_End01.class);
+                Intent intent = new Intent(getApplicationContext(), Direction_R_St_End.class);
                 startActivity(intent);
                 Toast.makeText(getApplicationContext(), "심부름 실패",Toast.LENGTH_SHORT).show();
             }

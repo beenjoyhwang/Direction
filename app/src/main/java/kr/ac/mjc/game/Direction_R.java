@@ -22,8 +22,9 @@ public class Direction_R extends AppCompatActivity {
         left.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Direction_L_walk.class);
+                Intent intent = new Intent(getApplicationContext(), Direction_R_End.class);
                 startActivity(intent);
+                Toast.makeText(getApplicationContext(), "심부름 성공",Toast.LENGTH_SHORT).show();
 
             }
         });

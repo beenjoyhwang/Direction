@@ -52,7 +52,7 @@ public class DirectionSet extends AppCompatActivity {
 
         if (requestCode == REQUEST_CODE_MENU) {
             text1.setVisibility(text1.INVISIBLE);
-            text2.setText("개를 피해왔습니다.");
+            text2.setVisibility(text1.INVISIBLE);
             text3.setText("오른쪽으로 가야합니다");
 
             set.setVisibility(set.INVISIBLE);

@@ -34,7 +34,7 @@ public class Direction_L extends AppCompatActivity {
         run.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "개한테 물렸습니다. 심부름 실패",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "심부름 실패",Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(getApplicationContext(),Direction_End02.class);
                 startActivity(intent);
 
